@@ -1,7 +1,7 @@
 /*BEGIN Xbox 360 Controller Styling*/
 
 .controller.xbox-old {
-    background: url(bg-b.png);
+    background-image: url('bg-b.png');
     height: 544px;
     width: 668px;
     /*    margin-left: -332px;
@@ -9,7 +9,7 @@
 }
 
 .xbox-old.disconnected {
-    background: url(bg-disconnect.png);
+    background-image: url(bg-disconnect.png);
 }
 
 .xbox-old.disconnected div {
@@ -26,7 +26,7 @@
 .xbox-old .trigger {
     width: 33px;
     height: 76px;
-    background: url(trigger-b.png);
+    background-image: url('trigger-b.png');
     opacity: 0;
 }
 
@@ -43,7 +43,7 @@
 .xbox-old .bumper {
     width: 119px;
     height: 44px;
-    background: url(bumper-b.png);
+    background-image: url('bumper-b.png');
     opacity: 0;
 }
 
@@ -70,7 +70,7 @@
 }
 .xbox-old .quadrant {
     position: absolute;
-    background: url(quadrant.png);
+    background-image: url(quadrant.png);
     height: 100px;
     width: 100px;
     top: 164px;
@@ -107,7 +107,7 @@
 }
 
 .xbox-old .back, .xbox-old .start {
-    background: url(arrow.png);
+    background-image: url(arrow.png);
     width: 34px;
     height: 29px;
 }
@@ -165,24 +165,24 @@
 }
 
 .xbox-old .a {
-    background: url(a.png);
+    background-image: url(a.png);
     top: 108px;
     left: 55px;
 }
 
 .xbox-old .b {
-    background: url(b.png);
+    background-image: url(b.png);
     top: 54px;
     right: 0px;
 }
 
 .xbox-old .x {
-    background: url(x.png);
+    background-image: url(x.png);
     top: 54px;
 }
 
 .xbox-old .y {
-    background: url(y.png);
+    background-image: url(y.png);
     left: 54px;
 }
 
@@ -196,7 +196,7 @@
 
 .xbox-old .stick {
     position: absolute;
-    background: url(stick-b.png);
+    background-image: url('stick-b.png');
     height: 86px;
     width: 86px;
 }
